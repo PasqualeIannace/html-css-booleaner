@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
         <!-- Logo e titolo -->
-        <img src="./img/logo.svg" alt="">
-        <img src="./img/pattern.png" alt="">
+        <div id="logo">
+            <img src="./img/logo.svg" alt="">
+        </div>
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berner-Lee</h1>
-        <h3>Scritto da The Booleaner</h3>
-        <p>il 10/10/2020</p>
+        <div id="data">
+            <h3>Scritto da <a href="">The Booleaner</a></h3>
+            <p>il 10/10/2020</p>
+        </div>
+
+        <br>
+
     </header>
 
     <main>
         <!-- immagini -->
         <img src="./img/tim-1.jpg" alt="Tim's photo">
         <img src="./img/tim-2.jpg" alt="Tim's photo 2">
-        <p>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
-        <p>2nd Photo: Wikimedia, by Paul Clarke</p>
+        <div id="photoDescription">
+            <p>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
+            <p>2nd Photo: Wikimedia, by Paul Clarke</p>
+        </div>
+        <br>
 
         <!-- paragrafi -->
         <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa veniam dicta asperiores quis mollitia eaque quibusdam eum autem inventore! Possimus non reprehenderit temporibus laboriosam facere ullam debitis, sequi quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, accusantium mollitia? Velit corporis, iure neque inventore eligendi sit architecto officiis doloribus molestias labore omnis, eos nam vitae iusto repudiandae consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam maxime obcaecati minima quae qui praesentium numquam facere molestias. Architecto vitae explicabo exercitationem cumque modi! Laudantium totam perspiciatis quae pariatur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa veniam dicta asperiores quis mollitia eaque quibusdam eum autem inventore! <span class="sottolineato">Possimus non reprehenderit temporibus laboriosam facere ullam debitis</span>, sequi quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, accusantium mollitia? Velit corporis, iure neque inventore eligendi sit architecto officiis doloribus molestias labore omnis, eos nam vitae iusto repudiandae consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam maxime obcaecati minima quae qui praesentium numquam facere molestias. Architecto vitae explicabo exercitationem cumque modi! Laudantium totam perspiciatis quae pariatur.
         </div>
 
         <div>
@@ -44,17 +54,17 @@
                 <th>Lorem ipsum dolor</th>
             </thead>
             <tbody>
-                <tr>
+                <tr class="col1">
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique facere non nulla qui animi eos pariatur ipsa quis omnis voluptate atque, explicabo quibusdam autem assumenda, sint ipsam officia praesentium?</td>
                 </tr>
-                <tr>
+                <tr class="col2">
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique facere non nulla qui animi eos pariatur ipsa quis omnis voluptate atque, explicabo quibusdam autem assumenda, sint ipsam officia praesentium?</td>
                 </tr>
-                <tr>
+                <tr class="col1">
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor</td>
                     <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique facere non nulla qui animi eos pariatur ipsa quis omnis voluptate atque, explicabo quibusdam autem assumenda, sint ipsam officia praesentium?</td>
@@ -64,13 +74,17 @@
 
         <!-- paragrafi 2 -->
         <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa veniam dicta asperiores quis mollitia eaque quibusdam eum autem inventore! Possimus non reprehenderit temporibus laboriosam facere ullam debitis, sequi quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, accusantium mollitia? Velit corporis, iure neque inventore eligendi sit architecto officiis doloribus molestias labore omnis, eos nam vitae iusto repudiandae consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam laboriosam maxime obcaecati minima quae qui praesentium numquam facere molestias. Architecto vitae explicabo exercitationem cumque modi! Laudantium totam perspiciatis quae pariatur.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsa veniam dicta asperiores quis mollitia eaque quibusdam eum autem inventore! Possimus non reprehenderit temporibus laboriosam facere ullam debitis, sequi quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, accusantium mollitia? Velit corporis, iure neque inventore eligendi sit architecto officiis doloribus molestias labore omnis, eos nam vitae iusto repudiandae consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="sottolineato">Aperiam laboriosam maxime obcaecati minima quae qui praesentium numquam facere molestias</span>. Architecto vitae explicabo exercitationem cumque modi! Laudantium totam perspiciatis quae pariatur.
         </div>
+
+        <br>
+
     </main>
 
     <footer>
         <!-- consigliati -->
         <p>Potrebbero interessarti</p>
+        <br>
         <img src="./img/monitor.jpg" alt="Articolo 1">
         <span>Lore ipsum dolor</span>
         <br>
