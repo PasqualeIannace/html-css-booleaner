@@ -2,6 +2,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main, footer {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 #logo {
     background-image: url(../img/pattern.png);
     background-color: rgb(0, 162, 255);
